@@ -1,3 +1,43 @@
+* {
+  font-family: "https://fonts.google.com/specimen/Raleway";
+  font-weight: 400;
+}
+
+.navicon {
+  text-align: start;
+  border: solid 2px green;
+}
+
+.nav {
+  border: solid 2px red;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.firstrow {
+  border: solid 2px blue;
+  padding-left: 20px;
+}
+
+.startedbtn {
+  color: white;
+  background-color: blue;
+  border-radius: 3px;
+  font-size: 10px;
+  width: 100px;
+  height: 21px;
+}
+
+.iconofichero {
+  border: solid 2px red;
+  width: 350px;
+}
+
+.secondrow {
+  border: solid 2px yellow;
+  padding-left: 10px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
