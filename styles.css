@@ -1,24 +1,22 @@
-body {
+* {
+  font-family: var("https://fonts.google.com/specimen/Raleway");
   font-family: var("https://fonts.google.com/specimen/Open+Sans");
-  font-weight: 400;
 }
 
 .navicon {
   text-align: start;
-  border: solid 2px green;
 }
 
 .botonesnav {
   text-align: right;
   display: block;
-  padding-bottom: 20px;
-  border: solid 2px green;
+  padding-bottom: 30px;
+  color: hsl(0, 0%, 75%);
 }
 
 .firstrow {
-  border: solid 2px blue;
-  padding-left: 20px;
-  display: block;
+  padding-left: 30px;
+  border: solid 2px red;
 }
 
 .startedbtn {
@@ -32,22 +30,45 @@ body {
 }
 
 .iconofichero {
-  border: solid 2px red;
-  display: block;
-  justify-content: stretch;
+  bosrder: solid 2px red;
 }
 
 .secondrow {
   border: solid 2px yellow;
-  padding-left: 10px;
+  padding-left: 30px;
+  background-color: ;
+}
+
+.linkarrow {
+  color: hsl(170, 45%, 43%);
 }
 
 .commentbox {
+  display: list-item;
   border: solid 2px grey;
+  background-image: image-set(transparent);
+  box-shadow: 50 50 50 50 black;
+  border-radius: 20px;
+  width: 300px;
+  text-align: justify;
+  text-justify: newspaper;
+  padding-left: 10px;
+  font-weight: 200;
 }
 
 .commentavatar {
   border-radius: 90px;
+}
+
+.thirdrow {
+  padding-left: 30px;
+  color: white;
+  background: hsl(238, 22%, 44%);
+}
+
+.fourthrow {
+  background: hsl(243, 87%, 12%);
+  color: white;
 }
 
 .attribution {
