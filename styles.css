@@ -4,19 +4,29 @@
 }
 
 .navicon {
-  text-align: start;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 75%);
+  border: solid 2px green;
 }
 
 .botonesnav {
-  text-align: right;
-  display: block;
-  padding-bottom: 30px;
-  color: hsl(0, 0%, 75%);
+  padding-top: 35px;
 }
 
 .firstrow {
-  padding-left: 30px;
   border: solid 2px red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 10px 50px;
 }
 
 .startedbtn {
@@ -30,7 +40,7 @@
 }
 
 .iconofichero {
-  bosrder: solid 2px red;
+  width: 100%;
 }
 
 .secondrow {
@@ -45,13 +55,10 @@
 
 .commentbox {
   display: list-item;
-  border: solid 2px grey;
   background-image: image-set(transparent);
-  box-shadow: 50 50 50 50 black;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   width: 300px;
-  text-align: justify;
-  text-justify: newspaper;
   padding-left: 10px;
   font-weight: 200;
 }
@@ -64,6 +71,7 @@
   padding-left: 30px;
   color: white;
   background: hsl(238, 22%, 44%);
+  display: flex;
 }
 
 .fourthrow {
