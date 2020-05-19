@@ -1,5 +1,5 @@
-* {
-  font-family: "https://fonts.google.com/specimen/Raleway";
+body {
+  font-family: var("https://fonts.google.com/specimen/Open+Sans");
   font-weight: 400;
 }
 
@@ -8,34 +8,46 @@
   border: solid 2px green;
 }
 
-.nav {
-  border: solid 2px red;
+.botonesnav {
   text-align: right;
-  padding-bottom: 10px;
+  display: block;
+  padding-bottom: 20px;
+  border: solid 2px green;
 }
 
 .firstrow {
   border: solid 2px blue;
   padding-left: 20px;
+  display: block;
 }
 
 .startedbtn {
   color: white;
   background-color: blue;
-  border-radius: 3px;
+  border-radius: 8px;
   font-size: 10px;
-  width: 100px;
-  height: 21px;
+  width: 150px;
+  height: 30px;
+  font-weight: 700;
 }
 
 .iconofichero {
   border: solid 2px red;
-  width: 350px;
+  display: block;
+  justify-content: stretch;
 }
 
 .secondrow {
   border: solid 2px yellow;
   padding-left: 10px;
+}
+
+.commentbox {
+  border: solid 2px grey;
+}
+
+.commentavatar {
+  border-radius: 90px;
 }
 
 .attribution {
