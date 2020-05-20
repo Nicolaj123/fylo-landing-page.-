@@ -3,7 +3,8 @@
   font-family: var("https://fonts.google.com/specimen/Open+Sans");
 }
 
-.navicon {
+body {
+  box-sizing: border-box;
 }
 
 .nav {
@@ -14,6 +15,7 @@
   box-sizing: border-box;
   color: hsl(0, 0%, 75%);
   border: solid 2px green;
+  width: auto;
 }
 
 .botonesnav {
@@ -25,8 +27,11 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: 100%;
   padding: 10px 50px;
+}
+
+.input {
+  border: solid 2px black;
 }
 
 .startedbtn {
@@ -40,13 +45,13 @@
 }
 
 .iconofichero {
-  width: 100%;
+  width: 80%;
+  border: solid 2px red;
+  
 }
 
 .secondrow {
   border: solid 2px yellow;
-  padding-left: 30px;
-  background-color: ;
 }
 
 .linkarrow {
@@ -54,13 +59,13 @@
 }
 
 .commentbox {
-  display: list-item;
   background-image: image-set(transparent);
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   width: 300px;
   padding-left: 10px;
   font-weight: 200;
+  border: solid 2px goldenrod;
 }
 
 .commentavatar {
@@ -68,15 +73,23 @@
 }
 
 .thirdrow {
-  padding-left: 30px;
-  color: white;
-  background: hsl(238, 22%, 44%);
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 10px 50px;
+  border: solid 2px lightseagreen;
 }
 
 .fourthrow {
   background: hsl(243, 87%, 12%);
   color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 10px 50px;
+  border: solid 2px lightcoral;
 }
 
 .attribution {
