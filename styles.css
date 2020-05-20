@@ -3,10 +3,6 @@
   font-family: var("https://fonts.google.com/specimen/Open+Sans");
 }
 
-body {
-  box-sizing: border-box;
-}
-
 .nav {
   display: flex;
   flex-direction: row;
@@ -45,9 +41,10 @@ body {
 }
 
 .iconofichero {
-  width: 80%;
   border: solid 2px red;
-  
+  height: 420px;
+  width: 100%;
+  margin-left: 100px;
 }
 
 .secondrow {
