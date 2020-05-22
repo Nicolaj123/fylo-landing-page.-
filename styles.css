@@ -116,6 +116,8 @@
   width: 100%;
   padding: 10px 50px;
   border: solid 2px lightseagreen;
+  background-color: hsl(238, 22%, 44%);
+  color: white;
 }
 
 .thirdrowdescription {
@@ -128,12 +130,27 @@
   border: solid 2px blue;
   justify-content: right;
 }
+.inputbtn2 {
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+  border-color: hsl(224, 93%, 58%);
+  margin-top: 10px;
+}
+
+.inputtext {
+  width: 280px;
+  height: 30px;
+  text-align: start;
+}
 
 .fourthrow {
   background: hsl(243, 87%, 12%);
   color: white;
-  display: flex;
-  flex-direction: row;
+  displasirection: row;
   flex-wrap: nowrap;
   width: 100%;
   padding: 10px 50px;
