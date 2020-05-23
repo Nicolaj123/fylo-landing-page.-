@@ -13,6 +13,51 @@
     <link rel="Fontfamily" href="https://fonts.google.com/specimen/Raleway" />
     <link rel="Fontfamily" href="https://fonts.google.com/specimen/Open+Sans" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css"
+    />
+    <script type="text/javascript">
+      var css_browser_selector = (function () {
+        var ua = navigator.userAgent.toLowerCase(),
+          is = function (t) {
+            return ua.indexOf(t) != -1;
+          },
+          h = document.getElementsByTagName("html")[0],
+          b =
+            !/opera|webtv/i.test(ua) && /msie (\d)/.test(ua)
+              ? "ie ie" + RegExp.$1
+              : is("firefox/2")
+              ? "gecko ff2"
+              : is("firefox/3")
+              ? "gecko ff3"
+              : is("gecko/")
+              ? "gecko"
+              : is("opera/9")
+              ? "opera opera9"
+              : /opera (\d)/.test(ua)
+              ? "opera opera" + RegExp.$1
+              : is("konqueror")
+              ? "konqueror"
+              : is("applewebkit/")
+              ? "webkit safari"
+              : is("mozilla/")
+              ? "gecko"
+              : "",
+          os =
+            is("x11") || is("linux")
+              ? " linux"
+              : is("mac")
+              ? " mac"
+              : is("win")
+              ? " win"
+              : "";
+        var c = b + os + " js";
+        h.className += h.className ? " " + c : c;
+      })();
+    </script>
+
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
 
@@ -125,7 +170,8 @@
         </h4>
         <!--Descripcion-->
         <h6>
-          It only takes a minute to sign up and our free starter tier is <br />
+          It only takes a minute to sign up and our free starter tier is
+          <br />
           extremely generous. If you have any questions, our support team
           <br />
           would be happy to help you.
@@ -149,39 +195,46 @@
 
     <!--Cuarto DIV-->
     <div class="fourthrow">
-      <img src="images/logo.svg" alt="logofylo" />
-      <h5>
-        <img
-          src="images/icon-phone.svg"
-          alt="iconophone"
-        />Phone:+1-543-123-4567
-      </h5>
-      <a href=""
-        ><img src="images/icon-email.svg" alt="iconomail" />example@fylo.com</a
-      >
-      <ul>
+      <div class="fourthrow1colum">
+        <img src="images/logo.svg" alt="logofylo" />
+        <h5>
+          <img
+            src="images/icon-phone.svg"
+            alt="iconophone"
+          />Phone:+1-543-123-4567
+        </h5>
+        <a href=""
+          ><img
+            src="images/icon-email.svg"
+            alt="iconomail"
+          />example@fylo.com</a
+        >
+      </div>
+      <div class="fourthrowul">
         <ul>
-          <a href="">About</a>
+          <ul>
+            <a href="">About</a>
+          </ul>
+          <ul>
+            <a href="">Us</a>
+          </ul>
+          <ul>
+            <a href="">Jobs</a>
+          </ul>
+          <ul>
+            <a href="">Press</a>
+          </ul>
+          <ul>
+            <a href="">Blog</a>
+          </ul>
+          <ul>
+            <a href="">Contact Us</a>
+          </ul>
+          <ul>
+            <a href="">Terms Privacy</a>
+          </ul>
         </ul>
-        <ul>
-          <a href="">Us</a>
-        </ul>
-        <ul>
-          <a href="">Jobs</a>
-        </ul>
-        <ul>
-          <a href="">Press</a>
-        </ul>
-        <ul>
-          <a href="">Blog</a>
-        </ul>
-        <ul>
-          <a href="">Contact Us</a>
-        </ul>
-        <ul>
-          <a href="">Terms Privacy</a>
-        </ul>
-      </ul>
+      </div>
       <!--Hasta aca, Cuarto DIV-->
       <div class="iconosredes">
         <!--Iconos REDES-->
