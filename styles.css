@@ -131,7 +131,7 @@
   flex-direction: column;
   border: solid 2px blue;
   justify-content: right;
-  margin-left: 280px;
+  margin-left: 580px;
   width: 400px;
 }
 
@@ -150,6 +150,7 @@
   width: 280px;
   height: 30px;
   text-align: start;
+  border-radius: 4px;
 }
 
 .fourthrow {
@@ -164,13 +165,16 @@
 
 .fourthrow1colum {
   border: solid 2px red;
+  justify-items: center;
 }
 
-.fourthrowul {
+.fourthrowul,
+.fourthrowul2 {
+  color: white;
   border: solid 2px white;
-  display: table-cell;
-  margin-left: 50px;
-  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 
 .iconosredes {
