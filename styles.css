@@ -9,11 +9,11 @@
 }
 
 .botonesnav {
-  width: 350px;
-  display: inline-flex;
-  flex-direction: row;
-  align-content: space-around;
-  border: solid 2px indigo;
+  width: 400px;
+  display: inline-block;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border: solid 2px hsl(170, 45%, 43%);
 }
 
 .firstrow {
@@ -72,10 +72,10 @@
   justify-content: space-between;
   padding: 10px 50px;
   padding-top: 40px;
+  padding-bottom: 80px;
   background-image: url(images/bg-curve-desktop.svg);
   background-repeat: no-repeat;
   background-color: hsl(240, 75%, 98%);
-  border: solid 2px red;
 }
 
 .secondrow h5 {
@@ -88,7 +88,6 @@
 
 .groupimg {
   height: 400px;
-  border: solid 2px tomato;
 }
 
 .testimonalbox {
@@ -154,13 +153,12 @@
 
 .fourthrow {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background: hsl(243, 87%, 12%);
   color: white;
   padding: 10px 50px;
   border: solid 2px red;
+  box-siszing: border-box;
 }
 
 .fourthrow1colum {
@@ -172,6 +170,7 @@
 .fourthrowul2 {
   color: white;
   border: solid 2px white;
+  width: 100%;
 }
 
 .todoul {
