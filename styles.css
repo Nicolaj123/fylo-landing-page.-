@@ -6,23 +6,23 @@
   box-sizing: border-box;
   color: hsl(0, 0%, 75%);
   padding: 10px 50px;
+  border: solid 2px maroon;
 }
 
 .botonesnav {
-  width: 400px;
-  display: inline-block;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  border: solid 2px hsl(170, 45%, 43%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
 }
 
 .firstrow {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
   padding: 10px 50px;
   padding-top: 40px;
-  border: solid 2px red;
 }
 
 .firstrow h2 {
@@ -35,13 +35,16 @@
 
 .completerow {
   width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .input {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-self: center;
 }
 
 .btnspace {
@@ -62,7 +65,6 @@
 
 .iconofichero {
   height: 420px;
-  width: 100%;
 }
 
 .secondrow {
@@ -122,15 +124,22 @@
   background-color: hsl(238, 22%, 44%);
   color: white;
   box-sizing: border-box;
+  border: solid 2px maroon;
 }
 
 .thirdrowdescription {
+  border: solid 2px mediumvioletred;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .thirdrowinput {
   display: flex;
   flex-direction: column;
-  border: solid 2px blue;
+  justify-content: center;
+  border: solid 2px gold;
 }
 
 .inputbtn2 {
@@ -157,30 +166,28 @@
   background: hsl(243, 87%, 12%);
   color: white;
   padding: 10px 50px;
-  border: solid 2px red;
-  box-siszing: border-box;
+  border: solid 2px;
 }
 
 .fourthrow1colum {
-  border: solid 2px red;
-  width: 100%;
-}
-
-.fourthrowul,
-.fourthrowul2 {
-  color: white;
-  border: solid 2px white;
-  width: 100%;
-}
-
-.todoul {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: solid 2px sandybrown;
+  width: 100%;
+}
+
+.fourthrow2colum {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: solid 2px peru;
+  width: 100%;
 }
 
 .iconosredes {
-  border: solid 2px sienna;
-  width: 100%;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
