@@ -166,7 +166,9 @@
   background: hsl(243, 87%, 12%);
   color: white;
   padding: 10px 50px;
-  border: solid 2px;
+  padding-top: 65px;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .fourthrow1colum {
@@ -174,14 +176,12 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  border: solid 2px sandybrown;
   width: 100%;
 }
 
 .fourthrow2colum {
   flex-direction: column;
   flex-wrap: nowrap;
-  border: solid 2px peru;
   width: 100%;
 }
 
