@@ -4,10 +4,10 @@
 }
 @font-face {
   font-family: "Open Sans";
-  src: url("https://fonts.google.com/specimen/Open+Sans")
+  src: url("https://fonts.google.com/specimen/Open+Sans");
 }
 
-body{
+body {
   font-family: "Open Sans";
   font-weight: 400;
 }
@@ -41,7 +41,7 @@ body{
 
 .firstrow h2 {
   font-family: "Raleway";
-  font-weight: 400,700;
+  font-weight: 400, 700;
 }
 
 .firstrow h5 {
@@ -78,7 +78,7 @@ body{
   font-weight: 700;
   cursor: pointer;
   font-family: "Raleway";
-  font-weight: 400,700;
+  font-weight: 400, 700;
 }
 
 .iconofichero {
@@ -99,7 +99,7 @@ body{
 }
 .secondrow h1 {
   font-family: "Raleway";
-  font-weight: 400,700;
+  font-weight: 400, 700;
 }
 .secondrow h5 {
   font-weight: 300;
@@ -160,7 +160,7 @@ body{
   flex-direction: row;
   flex-wrap: nowrap;
   font-family: "Raleway";
-  font-weight: 400,700;
+  font-weight: 400, 700;
 }
 
 .inputbtn2 {
@@ -186,34 +186,41 @@ body{
 
 .fourthrow {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   background: hsl(243, 87%, 12%);
   color: white;
   padding: 10px 50px;
   padding-top: 65px;
   font-size: 15px;
   font-weight: 400;
+  border: solid 2px white;
+  box-sizing: border-box;
 }
 
 .fourthrow1colum {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: solid 2px red;
   width: 100%;
 }
 
 .fourthrow2colum {
-  display: block;
-  align-content: center;
+  border: solid 2px red;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .iconosredes {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-between;
+  border: solid 2px orange;
 }
 
 .attribution {
