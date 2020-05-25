@@ -200,12 +200,23 @@
 }
 
 @media (max-width: 475px) {
+  * {
+    box-sizing: border-box;
+  }
   .nav {
     display: flex;
-    flex-direction: row;
-    width: 160px;
+    width: 100%;
     justify-content: space-evenly;
+    border: solid 2px orange;
   }
+  .botonesnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border: solid 2px orange;
+  }
+
   .firstrow {
     display: flex;
     flex-direction: column-reverse;
@@ -225,7 +236,6 @@
   .secondrow {
     display: flex;
     flex-direction: column-reverse;
-    border: solid 2px red;
   }
   .groupimg {
     width: 100%;
@@ -247,7 +257,7 @@
   .fourthrow1colum {
     display: flex;
     flex-direction: column;
-    width: 110%;
+    width: 100%;
   }
   .inputtext,
   .inputbtn2 {
