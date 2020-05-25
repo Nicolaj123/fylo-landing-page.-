@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("https://fonts.google.com/specimen/Raleway");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.google.com/specimen/Open+Sans")
+}
+
+body{
+  font-family: "Open Sans";
+  font-weight: 400;
+}
 .nav {
   display: flex;
   flex-direction: row;
@@ -6,6 +19,8 @@
   box-sizing: border-box;
   color: hsl(0, 0%, 75%);
   padding: 10px 50px;
+  font-family: "Raleway";
+  font-weight: 700;
 }
 
 .botonesnav {
@@ -25,7 +40,8 @@
 }
 
 .firstrow h2 {
-  font-weight: 700;
+  font-family: "Raleway";
+  font-weight: 400,700;
 }
 
 .firstrow h5 {
@@ -61,6 +77,8 @@
   height: 30px;
   font-weight: 700;
   cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 400,700;
 }
 
 .iconofichero {
@@ -79,7 +97,10 @@
   background-repeat: no-repeat;
   background-color: hsl(240, 75%, 98%);
 }
-
+.secondrow h1 {
+  font-family: "Raleway";
+  font-weight: 400,700;
+}
 .secondrow h5 {
   font-weight: 300;
 }
@@ -138,6 +159,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  font-family: "Raleway";
+  font-weight: 400,700;
 }
 
 .inputbtn2 {
@@ -150,6 +173,8 @@
   border-color: hsl(224, 93%, 58%);
   margin-top: 10px;
   cursor: pointer;
+  font-family: "Raleway";
+  font-weight: 700;
 }
 
 .inputtext {
