@@ -128,7 +128,6 @@
 }
 
 .thirdrowdescription {
-  border: solid 2px mediumvioletred;
   display: inline-block;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -139,7 +138,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: solid 2px gold;
 }
 
 .inputbtn2 {
@@ -183,6 +181,11 @@
   flex-direction: column;
   flex-wrap: nowrap;
   width: 100%;
+}
+
+.iconosredes{
+  display: flex;
+  flex-direction: row;
 }
 
 .attribution {
