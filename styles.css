@@ -41,7 +41,6 @@ body {
 
 .firstrow h2 {
   font-family: "Raleway";
-  font-weight: 400, 700;
 }
 
 .firstrow h5 {
@@ -75,10 +74,9 @@ body {
   font-size: 10px;
   width: 150px;
   height: 30px;
-  font-weight: 700;
   cursor: pointer;
   font-family: "Raleway";
-  font-weight: 400, 700;
+  font-weight: 700;
 }
 
 .iconofichero {
@@ -99,7 +97,7 @@ body {
 }
 .secondrow h1 {
   font-family: "Raleway";
-  font-weight: 400, 700;
+  font-weight: 700;
 }
 .secondrow h5 {
   font-weight: 300;
@@ -160,7 +158,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   font-family: "Raleway";
-  font-weight: 400, 700;
+  font-weight: 400
 }
 
 .inputbtn2 {
@@ -174,7 +172,7 @@ body {
   margin-top: 10px;
   cursor: pointer;
   font-family: "Raleway";
-  font-weight: 700;
+  font-weight: 400, 700;
 }
 
 .inputtext {
@@ -197,22 +195,22 @@ body {
   font-weight: 400;
   border: solid 2px white;
   box-sizing: border-box;
+  column-count: 3;
+  text-align: justify;
 }
 
 .fourthrow1colum {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  border: solid 2px red;
   width: 250px;
 }
 
 .fourthrow2colum {
-  border: solid 2px red;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  column-count: 2;
+  text-align: justify;
+  border: solid 2px red;
 }
 
 .iconosredes {
@@ -220,7 +218,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: solid 2px orange;
+  width: 100px;
+  border: solid 2px red;
 }
 
 .attribution {
@@ -285,11 +284,22 @@ body {
   .thirdrow h1 {
     width: 300px;
   }
-  .fourthrow,
-  .fourthrow1colum {
+  .thirdrowinput {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: right;
+  }
+  .fourthrow {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .fourthrow2column {
+    display: flex;
+    flex-direction: column;
+    
   }
   .inputtext,
   .inputbtn2 {
@@ -297,7 +307,6 @@ body {
   }
   .iconosredes {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
   }
 }
