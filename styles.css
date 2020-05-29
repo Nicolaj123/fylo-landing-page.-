@@ -40,11 +40,15 @@ body {
 }
 
 .firstrow h2 {
-  font-family: "Raleway";
+  font-family: "Open Sans";
+  font-size: 34px;
+  font-weight: 700;
 }
 
 .firstrow h5 {
-  font-weight: 300;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
   margin-top: 1px;
 }
 
@@ -71,12 +75,12 @@ body {
   color: white;
   background-color: hsl(224, 93%, 58%);
   border-radius: 4px;
-  font-size: 10px;
   width: 150px;
   height: 30px;
   cursor: pointer;
   font-family: "Raleway";
   font-weight: 700;
+  font-size: 13px;
 }
 
 .iconofichero {
@@ -96,11 +100,14 @@ body {
   background-color: hsl(240, 75%, 98%);
 }
 .secondrow h1 {
-  font-family: "Raleway";
+  font-family: "Open Sans";
   font-weight: 700;
+  font-size: 13px;
 }
 .secondrow h5 {
-  font-weight: 300;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .linkarrow {
@@ -119,6 +126,10 @@ body {
   padding-left: 20px;
   padding-top: 2px;
   margin-top: 30px;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Open Sans";
+  letter-spacing: 0.1px;
 }
 .commentbox {
   display: flex;
@@ -138,8 +149,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 10px 50px;
-  padding-top: 40px;
+  padding: 40px 50px;
   width: 100%;
   background-color: hsl(238, 22%, 44%);
   color: white;
@@ -157,8 +167,15 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  font-family: "Raleway";
-  font-weight: 400
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.thirdrow h6 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .inputbtn2 {
@@ -172,7 +189,8 @@ body {
   margin-top: 10px;
   cursor: pointer;
   font-family: "Raleway";
-  font-weight: 400, 700;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .inputtext {
@@ -189,28 +207,25 @@ body {
   justify-content: space-between;
   background: hsl(243, 87%, 12%);
   color: white;
-  padding: 10px 50px;
-  padding-top: 65px;
+  padding: 65px 50px;
   font-size: 15px;
   font-weight: 400;
-  border: solid 2px white;
   box-sizing: border-box;
-  column-count: 3;
-  text-align: justify;
+  column-count: 2;
 }
 
-.fourthrow1colum {
+.fourthrowinfocolum {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   width: 250px;
 }
 
-.fourthrow2colum {
-  width: 100%;
+.fourthrowulcolumns {
+  display: table-column;
+  table-layout: fixed;
+  align-content: space-between;
   column-count: 2;
-  text-align: justify;
-  border: solid 2px red;
 }
 
 .iconosredes {
@@ -219,7 +234,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 100px;
-  border: solid 2px red;
+}
+
+.icon2 {
+  width: 180px;
 }
 
 .attribution {
@@ -293,20 +311,23 @@ body {
   .fourthrow {
     display: flex;
     flex-direction: column;
+    column-count: 1;
     width: 100%;
   }
 
-  .fourthrow2column {
+  .fourthrowulcolumns {
     display: flex;
     flex-direction: column;
-    
+    text-align: left;
+    width: 100px;
   }
+
   .inputtext,
   .inputbtn2 {
     width: 210px;
   }
   .iconosredes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
