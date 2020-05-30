@@ -12,22 +12,33 @@ body {
   font-weight: 400;
 }
 .nav {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
   box-sizing: border-box;
   color: hsl(0, 0%, 75%);
   padding: 10px 50px;
   font-family: "Raleway";
   font-weight: 700;
+  margin-right: 70px;
+  border: solid 2px royalblue;
+  width: 100%;
+}
+
+.navicon {
+  border: solid 2px red;
+  width: 100%;
+  display: flex;
+  width: 280px;
 }
 
 .botonesnav {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 20%;
+  justify-content: space-around;
+  border: solid 2px red;
+  width: 30%;
+
 }
 
 .firstrow {
@@ -75,6 +86,7 @@ body {
   color: white;
   background-color: hsl(224, 93%, 58%);
   border-radius: 4px;
+  border-color: hsl(224, 93%, 58%);
   width: 150px;
   height: 30px;
   cursor: pointer;
@@ -233,6 +245,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 80px;
   width: 100px;
 }
 
@@ -251,24 +264,27 @@ body {
 @media (max-width: 475px) {
   * {
     box-sizing: border-box;
+    width: auto;
   }
   .nav {
     display: flex;
+    align-content: space-between;
     width: 100%;
     justify-content: space-evenly;
     border: solid 2px orange;
   }
   .botonesnav {
+    border: solid 2px orange;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    border: solid 2px orange;
+    align-content: space-between;
   }
 
   .firstrow {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+    border: solid 2px salmon;
   }
   .iconofichero {
     width: 100%;
