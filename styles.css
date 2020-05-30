@@ -21,24 +21,22 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   margin-right: 70px;
-  border: solid 2px royalblue;
   width: 100%;
 }
 
 .navicon {
-  border: solid 2px red;
   width: 100%;
   display: flex;
-  width: 280px;
+  flex-direction: row;
+  width: 130px;
 }
 
 .botonesnav {
   display: inline-flex;
   flex-direction: row;
-  justify-content: space-around;
-  border: solid 2px red;
-  width: 30%;
-
+  justify-content: space-evenly;
+  width: 20%;
+  float: right;
 }
 
 .firstrow {
@@ -238,6 +236,7 @@ body {
   table-layout: fixed;
   align-content: space-between;
   column-count: 2;
+  border: solid 2px red;
 }
 
 .iconosredes {
@@ -266,25 +265,29 @@ body {
     box-sizing: border-box;
     width: auto;
   }
+
   .nav {
     display: flex;
     align-content: space-between;
     width: 100%;
-    justify-content: space-evenly;
-    border: solid 2px orange;
   }
-  .botonesnav {
-    border: solid 2px orange;
+
+  .navicon {
+    width: 100px;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+  }
+
+  .botonesnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .firstrow {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-    border: solid 2px salmon;
   }
   .iconofichero {
     width: 100%;
